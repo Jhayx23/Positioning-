@@ -1,0 +1,90 @@
+
+	 <!DOCTYPE html> 
+	 <html lang="en"> 
+	 <head> 
+	    <meta charset="UTF-8"> 
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	    <title>Document</title> 
+	    <style> 
+	        *{ 
+	            padding: 0; 
+	            margin: 0; 
+	            box-sizing: margin-box; 
+	        }
+	        body{
+	          background-color: ghostwhite;
+	          height: 100vh;
+	          display: grid;
+	          
+	         
+	        }
+	 
+	        .box{ 
+	            color: white; 
+	            height: 160px; 
+	            width: 130px; 
+	            display: flex; 
+	            /*align-items: center;*/ 
+	            justify-content: center;
+	            position: absolute; 
+	            font-size: 25px;
+	            
+	        } 
+	         
+	        .container{ 
+	            position: relative; 
+	            width: 500px; 
+	            height: 700px; 
+	            margin: auto; 
+	            background-color: antiquewhite; 
+	        } 
+	 
+	        .red{ 
+	            background-color: red; 
+	            top: 0; 
+	            left: 0; 
+	        } 
+	 
+	        .green{ 
+	            background-color: green; 
+	            top: 0; 
+	            right: 0; 
+	        } 
+	 	        .blue{ 
+	            background-color: blue; 
+	            bottom: 0; 
+	            left: 0; 
+	        } 
+	 
+	        .purple{ 
+	            background-color: purple; 
+	            bottom: 0; 
+	            right: 0; 
+	        } 
+	 
+	        .footer{ 
+	            background-color: gray; 
+	            position: absolute; 
+	            width: 130px; 
+	            height: 160px; 
+	            top: 35%; 
+	            left: 35%; 
+	            color: white; 
+	            display: flex; 
+	            justify-content: center;
+	            /*align-items: center;*/ 
+	            /*transform: translate(-25% -25%);*/
+	        } 
+	 
+	    </style> 
+	 </head> 
+	 <body> 
+	    <div class="container"> 
+	       <div class="box red">Red</div> 
+	       <div class="box green">Green</div> 
+	       <div class="box blue">Blue</div> 
+	       <div class="box purple">Purple</div> 
+	       <div class="box footer">Footer</div> 
+	    </div> 
+ </body> 
+</html> 
